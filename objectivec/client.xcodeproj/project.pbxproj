@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8100DE1125F6F79400E52268 /* TriangleTextureBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE0F25F6F79300E52268 /* TriangleTextureBehaviour1.m */; };
+		8100DE1425F6F80900E52268 /* TriangleTextureViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE1325F6F80900E52268 /* TriangleTextureViewController1.m */; };
+		8100DE1725F6FF8D00E52268 /* vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 8100DE1525F6FF8D00E52268 /* vertex.glsl */; };
+		8100DE1825F6FF8D00E52268 /* fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 8100DE1625F6FF8D00E52268 /* fragment.glsl */; };
+		8100DE1D25F7140100E52268 /* RectangleTextureViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE1B25F7140000E52268 /* RectangleTextureViewController1.m */; };
+		8100DE2025F7149800E52268 /* RectangleTextureBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE1E25F7149800E52268 /* RectangleTextureBehaviour1.m */; };
+		8100DE2325F71BB600E52268 /* CircleTextureBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE2125F71BB600E52268 /* CircleTextureBehaviour1.m */; };
+		8100DE2625F71C1400E52268 /* CircleTextureViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE2425F71C1400E52268 /* CircleTextureViewController1.m */; };
+		8100DE2925F740EA00E52268 /* CubeTextureBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE2825F740EA00E52268 /* CubeTextureBehaviour1.m */; };
+		8100DE2C25F7413C00E52268 /* CubeTextureViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE2A25F7413B00E52268 /* CubeTextureViewController1.m */; };
+		8100DE2F25F7667800E52268 /* SphereTextureBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE2D25F7667700E52268 /* SphereTextureBehaviour1.m */; };
+		8100DE3225F766DA00E52268 /* SphereTextureViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8100DE3025F766D900E52268 /* SphereTextureViewController1.m */; };
+		812C89A0248F14A60041428E /* CubeBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C899E248F14A50041428E /* CubeBehaviour1.m */; };
+		812C89A3248F15190041428E /* CubeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C89A1248F15190041428E /* CubeViewController1.m */; };
+		8135FFDC25F20165005F47EC /* SphereBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135FFDB25F20165005F47EC /* SphereBehaviour1.m */; };
+		8135FFDF25F2034C005F47EC /* SphereViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135FFDE25F2034C005F47EC /* SphereViewController1.m */; };
+		815FFB8F240745A000B05529 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFB8E240745A000B05529 /* AppDelegate.m */; };
+		815FFB95240745A000B05529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815FFB93240745A000B05529 /* Main.storyboard */; };
+		815FFB97240745A200B05529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815FFB96240745A200B05529 /* Assets.xcassets */; };
+		815FFB9A240745A200B05529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815FFB98240745A200B05529 /* LaunchScreen.storyboard */; };
+		815FFB9D240745A200B05529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFB9C240745A200B05529 /* main.m */; };
+		815FFCE72407468D00B05529 /* TriangleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFBA72407468D00B05529 /* TriangleBehaviour1.m */; };
+		815FFD022407468D00B05529 /* TriangleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FFBE62407468D00B05529 /* TriangleViewController1.m */; };
+		81B9522125F1EC4B00A3418E /* RectangleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9522025F1EC4A00A3418E /* RectangleViewController1.m */; };
+		81B9522425F1EC9400A3418E /* RectangleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9522325F1EC9300A3418E /* RectangleBehaviour1.m */; };
+		81B9522B25F1F06800A3418E /* CircleBehaviour1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9522A25F1F06800A3418E /* CircleBehaviour1.m */; };
+		81B9522E25F1F0BA00A3418E /* CircleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9522C25F1F0BA00A3418E /* CircleViewController1.m */; };
+		81FC31CE25F5C4A600F463BA /* texture01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81FC31CC25F5C4A600F463BA /* texture01.jpg */; };
+		81FC31CF25F5C4A600F463BA /* texture02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81FC31CD25F5C4A600F463BA /* texture02.jpg */; };
+		F7172B7C1BF425A48FAC31BF /* Pods_iOSObjectiveCClinet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		511951C9D07E8229E4A713EC /* Pods-iOSObjectiveCClinet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCClinet.release.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet.release.xcconfig"; sourceTree = "<group>"; };
+		8100DE0F25F6F79300E52268 /* TriangleTextureBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleTextureBehaviour1.m; sourceTree = "<group>"; };
+		8100DE1025F6F79400E52268 /* TriangleTextureBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleTextureBehaviour1.h; sourceTree = "<group>"; };
+		8100DE1225F6F80900E52268 /* TriangleTextureViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleTextureViewController1.h; sourceTree = "<group>"; };
+		8100DE1325F6F80900E52268 /* TriangleTextureViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleTextureViewController1.m; sourceTree = "<group>"; };
+		8100DE1525F6FF8D00E52268 /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
+		8100DE1625F6FF8D00E52268 /* fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment.glsl; sourceTree = "<group>"; };
+		8100DE1B25F7140000E52268 /* RectangleTextureViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleTextureViewController1.m; sourceTree = "<group>"; };
+		8100DE1C25F7140000E52268 /* RectangleTextureViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleTextureViewController1.h; sourceTree = "<group>"; };
+		8100DE1E25F7149800E52268 /* RectangleTextureBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleTextureBehaviour1.m; sourceTree = "<group>"; };
+		8100DE1F25F7149800E52268 /* RectangleTextureBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleTextureBehaviour1.h; sourceTree = "<group>"; };
+		8100DE2125F71BB600E52268 /* CircleTextureBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTextureBehaviour1.m; sourceTree = "<group>"; };
+		8100DE2225F71BB600E52268 /* CircleTextureBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTextureBehaviour1.h; sourceTree = "<group>"; };
+		8100DE2425F71C1400E52268 /* CircleTextureViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTextureViewController1.m; sourceTree = "<group>"; };
+		8100DE2525F71C1400E52268 /* CircleTextureViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTextureViewController1.h; sourceTree = "<group>"; };
+		8100DE2725F740EA00E52268 /* CubeTextureBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeTextureBehaviour1.h; sourceTree = "<group>"; };
+		8100DE2825F740EA00E52268 /* CubeTextureBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeTextureBehaviour1.m; sourceTree = "<group>"; };
+		8100DE2A25F7413B00E52268 /* CubeTextureViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeTextureViewController1.m; sourceTree = "<group>"; };
+		8100DE2B25F7413C00E52268 /* CubeTextureViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeTextureViewController1.h; sourceTree = "<group>"; };
+		8100DE2D25F7667700E52268 /* SphereTextureBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereTextureBehaviour1.m; sourceTree = "<group>"; };
+		8100DE2E25F7667800E52268 /* SphereTextureBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereTextureBehaviour1.h; sourceTree = "<group>"; };
+		8100DE3025F766D900E52268 /* SphereTextureViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereTextureViewController1.m; sourceTree = "<group>"; };
+		8100DE3125F766DA00E52268 /* SphereTextureViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereTextureViewController1.h; sourceTree = "<group>"; };
+		8106334922D309F700A2073A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8106334B22D30AFC00A2073A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		812C899E248F14A50041428E /* CubeBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeBehaviour1.m; sourceTree = "<group>"; };
+		812C899F248F14A50041428E /* CubeBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeBehaviour1.h; sourceTree = "<group>"; };
+		812C89A1248F15190041428E /* CubeViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeViewController1.m; sourceTree = "<group>"; };
+		812C89A2248F15190041428E /* CubeViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeViewController1.h; sourceTree = "<group>"; };
+		8135FFDA25F20165005F47EC /* SphereBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereBehaviour1.h; sourceTree = "<group>"; };
+		8135FFDB25F20165005F47EC /* SphereBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereBehaviour1.m; sourceTree = "<group>"; };
+		8135FFDD25F2034C005F47EC /* SphereViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereViewController1.h; sourceTree = "<group>"; };
+		8135FFDE25F2034C005F47EC /* SphereViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereViewController1.m; sourceTree = "<group>"; };
+		815FFB8B240745A000B05529 /* iOSObjectiveCClinet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSObjectiveCClinet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		815FFB8D240745A000B05529 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		815FFB8E240745A000B05529 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		815FFB94240745A000B05529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		815FFB96240745A200B05529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		815FFB99240745A200B05529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		815FFB9B240745A200B05529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815FFB9C240745A200B05529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		815FFBA72407468D00B05529 /* TriangleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleBehaviour1.m; sourceTree = "<group>"; };
+		815FFBAA2407468D00B05529 /* TriangleBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleBehaviour1.h; sourceTree = "<group>"; };
+		815FFBE62407468D00B05529 /* TriangleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleViewController1.m; sourceTree = "<group>"; };
+		815FFD85240748BD00B05529 /* TriangleViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleViewController1.h; sourceTree = "<group>"; };
+		818329B023F0EF1500356D30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81B9521F25F1EC4A00A3418E /* RectangleViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleViewController1.h; sourceTree = "<group>"; };
+		81B9522025F1EC4A00A3418E /* RectangleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleViewController1.m; sourceTree = "<group>"; };
+		81B9522225F1EC9300A3418E /* RectangleBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleBehaviour1.h; sourceTree = "<group>"; };
+		81B9522325F1EC9300A3418E /* RectangleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleBehaviour1.m; sourceTree = "<group>"; };
+		81B9522925F1F06800A3418E /* CircleBehaviour1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBehaviour1.h; sourceTree = "<group>"; };
+		81B9522A25F1F06800A3418E /* CircleBehaviour1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleBehaviour1.m; sourceTree = "<group>"; };
+		81B9522C25F1F0BA00A3418E /* CircleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController1.m; sourceTree = "<group>"; };
+		81B9522D25F1F0BA00A3418E /* CircleViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController1.h; sourceTree = "<group>"; };
+		81FC31CC25F5C4A600F463BA /* texture01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture01.jpg; sourceTree = "<group>"; };
+		81FC31CD25F5C4A600F463BA /* texture02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture02.jpg; sourceTree = "<group>"; };
+		A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSObjectiveCClinet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D4BDD5B8F7EC13BACC8DB9 /* Pods-iOSObjectiveCTestClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCTestClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCTestClinet/Pods-iOSObjectiveCTestClinet.debug.xcconfig"; sourceTree = "<group>"; };
+		BD239EE98EF062C7CE426B30 /* Pods-iOSObjectiveCClinet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCClinet.debug.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBC9E20F9101D24D368B9C5 /* Pods-iOSObjectiveCTestClinet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSObjectiveCTestClinet.release.xcconfig"; path = "Target Support Files/Pods-iOSObjectiveCTestClinet/Pods-iOSObjectiveCTestClinet.release.xcconfig"; sourceTree = "<group>"; };
+		EFEB4AF67C0E5FA721BA7A5E /* Pods_iOSObjectiveCTestClinet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSObjectiveCTestClinet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		815FFB88240745A000B05529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7172B7C1BF425A48FAC31BF /* Pods_iOSObjectiveCClinet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236F87EBAD094D115A9DA20E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4BDD5B8F7EC13BACC8DB9 /* Pods-iOSObjectiveCTestClinet.debug.xcconfig */,
+				DBBC9E20F9101D24D368B9C5 /* Pods-iOSObjectiveCTestClinet.release.xcconfig */,
+				BD239EE98EF062C7CE426B30 /* Pods-iOSObjectiveCClinet.debug.xcconfig */,
+				511951C9D07E8229E4A713EC /* Pods-iOSObjectiveCClinet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		810632BB22D2FF4000A2073A = {
+			isa = PBXGroup;
+			children = (
+				815FFB8C240745A000B05529 /* iOSObjectiveCClinet */,
+				810632C522D2FF4000A2073A /* Products */,
+				96A876810378A91E81A18627 /* Frameworks */,
+				236F87EBAD094D115A9DA20E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		810632C522D2FF4000A2073A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				815FFB8B240745A000B05529 /* iOSObjectiveCClinet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8158034D2426F2D700377909 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8100DE1625F6FF8D00E52268 /* fragment.glsl */,
+				8100DE1525F6FF8D00E52268 /* vertex.glsl */,
+				81FC31CC25F5C4A600F463BA /* texture01.jpg */,
+				81FC31CD25F5C4A600F463BA /* texture02.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		815FFB8C240745A000B05529 /* iOSObjectiveCClinet */ = {
+			isa = PBXGroup;
+			children = (
+				8158034D2426F2D700377909 /* Resources */,
+				815FFBA12407468D00B05529 /* Classes */,
+				815FFB8D240745A000B05529 /* AppDelegate.h */,
+				815FFB8E240745A000B05529 /* AppDelegate.m */,
+				815FFB93240745A000B05529 /* Main.storyboard */,
+				815FFB96240745A200B05529 /* Assets.xcassets */,
+				815FFB98240745A200B05529 /* LaunchScreen.storyboard */,
+				815FFB9B240745A200B05529 /* Info.plist */,
+				815FFB9C240745A200B05529 /* main.m */,
+			);
+			path = iOSObjectiveCClinet;
+			sourceTree = "<group>";
+		};
+		815FFBA12407468D00B05529 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				815FFBA52407468D00B05529 /* Behaviour */,
+				815FFBAC2407468D00B05529 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		815FFBA52407468D00B05529 /* Behaviour */ = {
+			isa = PBXGroup;
+			children = (
+				815FFBAA2407468D00B05529 /* TriangleBehaviour1.h */,
+				815FFBA72407468D00B05529 /* TriangleBehaviour1.m */,
+				8100DE1025F6F79400E52268 /* TriangleTextureBehaviour1.h */,
+				8100DE0F25F6F79300E52268 /* TriangleTextureBehaviour1.m */,
+				812C899F248F14A50041428E /* CubeBehaviour1.h */,
+				812C899E248F14A50041428E /* CubeBehaviour1.m */,
+				8100DE2725F740EA00E52268 /* CubeTextureBehaviour1.h */,
+				8100DE2825F740EA00E52268 /* CubeTextureBehaviour1.m */,
+				81B9522225F1EC9300A3418E /* RectangleBehaviour1.h */,
+				81B9522325F1EC9300A3418E /* RectangleBehaviour1.m */,
+				8100DE1F25F7149800E52268 /* RectangleTextureBehaviour1.h */,
+				8100DE1E25F7149800E52268 /* RectangleTextureBehaviour1.m */,
+				81B9522925F1F06800A3418E /* CircleBehaviour1.h */,
+				81B9522A25F1F06800A3418E /* CircleBehaviour1.m */,
+				8100DE2225F71BB600E52268 /* CircleTextureBehaviour1.h */,
+				8100DE2125F71BB600E52268 /* CircleTextureBehaviour1.m */,
+				8135FFDA25F20165005F47EC /* SphereBehaviour1.h */,
+				8135FFDB25F20165005F47EC /* SphereBehaviour1.m */,
+				8100DE2E25F7667800E52268 /* SphereTextureBehaviour1.h */,
+				8100DE2D25F7667700E52268 /* SphereTextureBehaviour1.m */,
+			);
+			path = Behaviour;
+			sourceTree = "<group>";
+		};
+		815FFBAC2407468D00B05529 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				812C89A2248F15190041428E /* CubeViewController1.h */,
+				812C89A1248F15190041428E /* CubeViewController1.m */,
+				8100DE2B25F7413C00E52268 /* CubeTextureViewController1.h */,
+				8100DE2A25F7413B00E52268 /* CubeTextureViewController1.m */,
+				815FFD85240748BD00B05529 /* TriangleViewController1.h */,
+				815FFBE62407468D00B05529 /* TriangleViewController1.m */,
+				8100DE1225F6F80900E52268 /* TriangleTextureViewController1.h */,
+				8100DE1325F6F80900E52268 /* TriangleTextureViewController1.m */,
+				81B9521F25F1EC4A00A3418E /* RectangleViewController1.h */,
+				81B9522025F1EC4A00A3418E /* RectangleViewController1.m */,
+				8100DE1C25F7140000E52268 /* RectangleTextureViewController1.h */,
+				8100DE1B25F7140000E52268 /* RectangleTextureViewController1.m */,
+				81B9522D25F1F0BA00A3418E /* CircleViewController1.h */,
+				81B9522C25F1F0BA00A3418E /* CircleViewController1.m */,
+				8100DE2525F71C1400E52268 /* CircleTextureViewController1.h */,
+				8100DE2425F71C1400E52268 /* CircleTextureViewController1.m */,
+				8135FFDD25F2034C005F47EC /* SphereViewController1.h */,
+				8135FFDE25F2034C005F47EC /* SphereViewController1.m */,
+				8100DE3125F766DA00E52268 /* SphereTextureViewController1.h */,
+				8100DE3025F766D900E52268 /* SphereTextureViewController1.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		96A876810378A91E81A18627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818329B023F0EF1500356D30 /* XCTest.framework */,
+				8106334B22D30AFC00A2073A /* OpenGLES.framework */,
+				8106334922D309F700A2073A /* UIKit.framework */,
+				EFEB4AF67C0E5FA721BA7A5E /* Pods_iOSObjectiveCTestClinet.framework */,
+				A3AE05A170E15ED2ECA07E0C /* Pods_iOSObjectiveCClinet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		815FFB8A240745A000B05529 /* iOSObjectiveCClinet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815FFBA0240745A200B05529 /* Build configuration list for PBXNativeTarget "iOSObjectiveCClinet" */;
+			buildPhases = (
+				4D36833C47747BC62AEBCCFF /* [CP] Check Pods Manifest.lock */,
+				815FFB87240745A000B05529 /* Sources */,
+				815FFB88240745A000B05529 /* Frameworks */,
+				815FFB89240745A000B05529 /* Resources */,
+				AB037441E70C4AB1C8336BB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSObjectiveCClinet;
+			productName = iOSObjectiveCClinet;
+			productReference = 815FFB8B240745A000B05529 /* iOSObjectiveCClinet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		810632BC22D2FF4000A2073A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kotaro Masamoto";
+				TargetAttributes = {
+					815FFB8A240745A000B05529 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 810632BF22D2FF4000A2073A /* Build configuration list for PBXProject "client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 810632BB22D2FF4000A2073A;
+			productRefGroup = 810632C522D2FF4000A2073A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				815FFB8A240745A000B05529 /* iOSObjectiveCClinet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		815FFB89240745A000B05529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815FFB9A240745A200B05529 /* LaunchScreen.storyboard in Resources */,
+				81FC31CF25F5C4A600F463BA /* texture02.jpg in Resources */,
+				81FC31CE25F5C4A600F463BA /* texture01.jpg in Resources */,
+				8100DE1825F6FF8D00E52268 /* fragment.glsl in Resources */,
+				815FFB97240745A200B05529 /* Assets.xcassets in Resources */,
+				8100DE1725F6FF8D00E52268 /* vertex.glsl in Resources */,
+				815FFB95240745A000B05529 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D36833C47747BC62AEBCCFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSObjectiveCClinet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB037441E70C4AB1C8336BB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSObjectiveCClinet/Pods-iOSObjectiveCClinet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		815FFB87240745A000B05529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8100DE2625F71C1400E52268 /* CircleTextureViewController1.m in Sources */,
+				8100DE2F25F7667800E52268 /* SphereTextureBehaviour1.m in Sources */,
+				81B9522E25F1F0BA00A3418E /* CircleViewController1.m in Sources */,
+				81B9522125F1EC4B00A3418E /* RectangleViewController1.m in Sources */,
+				8100DE2C25F7413C00E52268 /* CubeTextureViewController1.m in Sources */,
+				8135FFDC25F20165005F47EC /* SphereBehaviour1.m in Sources */,
+				8100DE2025F7149800E52268 /* RectangleTextureBehaviour1.m in Sources */,
+				815FFD022407468D00B05529 /* TriangleViewController1.m in Sources */,
+				812C89A0248F14A60041428E /* CubeBehaviour1.m in Sources */,
+				8100DE2325F71BB600E52268 /* CircleTextureBehaviour1.m in Sources */,
+				8135FFDF25F2034C005F47EC /* SphereViewController1.m in Sources */,
+				8100DE1D25F7140100E52268 /* RectangleTextureViewController1.m in Sources */,
+				8100DE1425F6F80900E52268 /* TriangleTextureViewController1.m in Sources */,
+				8100DE3225F766DA00E52268 /* SphereTextureViewController1.m in Sources */,
+				81B9522425F1EC9400A3418E /* RectangleBehaviour1.m in Sources */,
+				815FFCE72407468D00B05529 /* TriangleBehaviour1.m in Sources */,
+				815FFB9D240745A200B05529 /* main.m in Sources */,
+				815FFB8F240745A000B05529 /* AppDelegate.m in Sources */,
+				8100DE2925F740EA00E52268 /* CubeTextureBehaviour1.m in Sources */,
+				81B9522B25F1F06800A3418E /* CircleBehaviour1.m in Sources */,
+				812C89A3248F15190041428E /* CubeViewController1.m in Sources */,
+				8100DE1125F6F79400E52268 /* TriangleTextureBehaviour1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		815FFB93240745A000B05529 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815FFB94240745A000B05529 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		815FFB98240745A200B05529 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815FFB99240745A200B05529 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		810632D822D2FF4100A2073A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		810632D922D2FF4100A2073A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		815FFB9E240745A200B05529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD239EE98EF062C7CE426B30 /* Pods-iOSObjectiveCClinet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9V674GA4T;
+				INFOPLIST_FILE = iOSObjectiveCClinet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucreatets.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		815FFB9F240745A200B05529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511951C9D07E8229E4A713EC /* Pods-iOSObjectiveCClinet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9V674GA4T;
+				INFOPLIST_FILE = iOSObjectiveCClinet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucreatets.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810632BF22D2FF4000A2073A /* Build configuration list for PBXProject "client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810632D822D2FF4100A2073A /* Debug */,
+				810632D922D2FF4100A2073A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815FFBA0240745A200B05529 /* Build configuration list for PBXNativeTarget "iOSObjectiveCClinet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815FFB9E240745A200B05529 /* Debug */,
+				815FFB9F240745A200B05529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 810632BC22D2FF4000A2073A /* Project object */;
+}
