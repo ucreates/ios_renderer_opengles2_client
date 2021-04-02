@@ -27,8 +27,13 @@
     [programObject setPositionName:@"a_position"];
     [programObject setColorName:@"a_color"];
     [programObject link];
+    int primitiveType = (int)[Random range:0.0 max:2.0];
     int bufferType = 0 == (int)[Random range:0.0 max:10.0] % 2 ? kVBO : kVAO;
-    self->asset = [[GLES2CircleAsset1 alloc] init:0.5f divideCount:100 color:GLES2Color.white bufferType:bufferType];
+    if (0 == primitiveType) {
+        self->asset = [[GLES2CircleAsset1 alloc] init:0.5f divideCount:100 color:GLES2Color.white bufferType:bufferType];
+    } else {
+        self->asset = [[GLES2CircleAsset2 alloc] init:0.5f divideCount:100 color:GLES2Color.white bufferType:bufferType];
+    }
     [self->asset setProgramObject:programObject];
     [self->asset setBindCallback:cb];
     [self->asset create];
